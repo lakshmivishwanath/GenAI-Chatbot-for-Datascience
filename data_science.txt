@@ -1,0 +1,395 @@
+1️⃣ What is Data Science?
+
+Data Science is the field of extracting useful insights from data using:
+
+Statistics
+
+Machine Learning
+
+Programming
+
+Domain knowledge
+
+Objectives:
+
+Predict future outcomes
+
+Classify data
+
+Discover patterns
+
+Support decision-making
+
+2️⃣ Types of Data Science Problems
+🔹 Regression
+
+Predict continuous values
+
+Example: house price, salary prediction
+
+Models:
+
+Linear Regression
+
+Random Forest
+
+Metrics:
+
+MAE
+
+RMSE
+
+R²
+
+🔹 Classification
+
+Predict categories
+
+Example: spam detection, disease prediction
+
+Models:
+
+Logistic Regression
+
+Decision Tree
+
+SVM
+
+Metrics:
+
+Accuracy
+
+Precision
+
+Recall
+
+F1-score
+
+🔹 Clustering
+
+Group similar data
+
+Example: customer segmentation
+
+Models:
+
+KMeans
+
+DBSCAN
+
+Metrics:
+
+Silhouette score
+
+🔹 NLP (Natural Language Processing)
+
+Work with text data
+
+Examples:
+
+Sentiment analysis
+
+Text classification
+
+Concepts:
+
+Tokenization
+
+Stopwords
+
+Lemmatization
+
+TF-IDF
+
+🔹 Computer Vision
+
+Work with image data
+
+Examples:
+
+Face recognition
+
+Object detection
+
+Models:
+
+CNN
+
+ResNet
+
+3️⃣ Data Science Project Life Cycle (VERY IMPORTANT)
+1. Problem Definition
+
+Understand business problem
+
+Define objective
+
+Identify success metric
+
+2. Data Collection
+
+Sources:
+
+CSV / Excel
+
+Kaggle
+
+APIs
+
+Databases
+
+3. Data Understanding
+
+Rows & columns
+
+Data types
+
+Target variable distribution
+
+Tools:
+
+.head()
+
+.info()
+
+.describe()
+
+4. Data Cleaning (MOST IMPORTANT STEP)
+
+Handle missing values
+
+Remove duplicates
+
+Fix incorrect data
+
+Handle outliers
+
+📌 Interview line:
+
+“Real-world data is noisy, so data cleaning is critical.”
+
+5. Exploratory Data Analysis (EDA)
+
+Purpose:
+
+Understand patterns
+
+Detect anomalies
+
+Discover relationships
+
+Plots:
+
+Histogram
+
+Boxplot
+
+Countplot
+
+Correlation heatmap
+
+6. Feature Engineering
+
+Encoding categorical variables
+
+Feature scaling
+
+Feature selection
+
+Feature creation
+
+7. Train–Test Split
+
+Split data into training & testing
+
+Common ratio: 80 / 20
+
+Prevent overfitting
+
+8. Model Selection
+Problem	Models
+Regression	Linear Regression, Random Forest
+Classification	Logistic Regression, SVM
+NLP	Naive Bayes
+CV	CNN
+9. Model Training
+
+Fit model on training data
+
+Learn patterns
+
+10. Model Evaluation
+
+Regression: MAE, RMSE, R²
+
+Classification: Accuracy, Precision, Recall
+
+11. Hyperparameter Tuning
+
+GridSearchCV
+
+RandomSearchCV
+
+12. Model Validation
+
+Cross-validation
+
+Prevent overfitting
+
+13. Model Saving
+
+Formats:
+
+.pkl
+
+.joblib
+
+14. Deployment
+
+FastAPI
+
+Streamlit
+
+Flask
+
+15. Documentation
+
+README.md
+
+Project explanation
+
+Results
+
+Future improvements
+
+16. Monitoring & Maintenance
+
+Data drift
+
+Model retraining
+
+Performance monitoring
+
+4️⃣ Machine Learning Algorithms (Short Notes)
+🔹 Linear Regression
+
+Predicts continuous values
+
+Assumes linear relationship
+
+🔹 Logistic Regression
+
+Used for classification
+
+Uses sigmoid function
+
+🔹 Decision Tree
+
+Rule-based
+
+Easy to interpret
+
+Overfitting risk
+
+🔹 Random Forest
+
+Ensemble of decision trees
+
+Reduces overfitting
+
+5️⃣ Programming & Tools a Student Must Know
+Languages
+
+Python
+
+Libraries
+
+Pandas
+
+NumPy
+
+Matplotlib
+
+Seaborn
+
+Scikit-learn
+
+6️⃣ What is GenAI?
+
+Generative AI creates new content using pretrained models.
+
+Examples:
+
+ChatGPT
+
+Code generators
+
+Project planners
+
+Uses:
+
+Large Language Models (LLMs)
+
+Prompt Engineering
+
+7️⃣ Code Generator (Your Project Feature)
+What it does:
+
+Converts natural language → code
+
+Generates:
+
+Python functions
+
+ML pipelines
+
+Data preprocessing code
+
+Example:
+
+“Write Python code for logistic regression”
+
+8️⃣ Code Corrector (Your Project Feature)
+What it does:
+
+Fixes bugs
+
+Improves code quality
+
+Optimizes logic
+
+Example:
+
+“Fix this Python code”
+
+Works like ChatGPT:
+
+Uses previously generated code
+
+Suggests corrected version
+
+9️⃣ What is RAG (Retrieval-Augmented Generation)?
+
+RAG = LLM + External Knowledge
+
+Components:
+
+Documents (PDF / TXT)
+
+Embeddings
+
+Vector Database (FAISS)
+
+Retriever
+
+LLM
+
+Benefit:
+
+Reduces hallucination
+
+Answers based on YOUR documents
+
+🔟 GenAI + RAG Project Explanation (INTERVIEW READY)
+
+“I built a GenAI-powered data science assistant and enhanced it using RAG to ground responses in my own documents using FAISS and sentence-transformers.”
